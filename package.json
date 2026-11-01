@@ -1,0 +1,26 @@
+{
+  "name": "iou",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Photograph a receipt, say who had what, get a screenshottable split. Runs entirely on-device.",
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "test": "npm run test:unit && npm run test:ocr && npm run test:e2e",
+    "test:unit": "node --test 'test/unit/*.test.js'",
+    "test:ocr": "node --test 'test/ocr/*.test.js'",
+    "test:e2e": "playwright test",
+    "sw": "node scripts/sw-version.mjs",
+    "icons": "node scripts/icons.mjs",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "1.1.0",
+    "@playwright/test": "1.64.1",
+    "@tesseract.js-data/eng": "1.0.0",
+    "libheif-js": "1.23.5",
+    "tesseract.js": "5.1.1",
+    "tesseract.js-core": "5.1.1"
+  }
+}

@@ -1,0 +1,25 @@
+Imaginary Bistro
+123 Example Street
+Anytown, ST 00000
+
+Server: Sam
+
+Check #12 Table 7
+Guest Count: 4
+
+Ordered: 06/14/25 8:05 PM
+1 Roast Chicken $28.00
+1 Tomato Soup $12.00
+1 Pork Chop * $34.00
+1 Risotto $26.00
+1 BTL Cuvee Imaginaire Rouge $58.00 |
+1 Bread and Butter $6.00
+1 Fried Calamari $16.00
+1 Caesar Salad $14.00
+1 BTL Domaine Des Songes
+Muscadel $64.00
+Kitchen Staff Fee (3.00%) $7.74
+Subtotal $265.74
+Tax $18.06
+Tip $53.15
+Total $336.95

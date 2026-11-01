@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1514" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Photograph a receipt, say who had what, get a split. Runs on your phone.">
+  <title>iou</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="iou">
+  <link rel="stylesheet" href="app.css">
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <button class="back" id="back" type="button" aria-label="Back" hidden>‹</button>
+    <h1 class="brand">iou</h1>
+    <span class="step" id="step"></span>
+  </header>
+  <main id="app" aria-live="polite"></main>
+  <footer class="footer">Runs on your phone. Nothing is uploaded.</footer>
+</body>
+</html>
